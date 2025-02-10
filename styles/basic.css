@@ -130,6 +130,7 @@ body {
     }
     .history_preview {
         box-shadow: 0 0 10px 1px;
+        width: 65vw;
     }
     .history_wrapper {
         display: flex;
