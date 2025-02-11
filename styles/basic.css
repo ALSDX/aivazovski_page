@@ -110,7 +110,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 10000px;
+        width: 100vw;
     }
     .about_container {
         display: flex;
@@ -198,7 +198,8 @@ body {
     }
     .portfolio {
         background-color: var(--bg-second);
-        width: 10000px;
+        width: 100vw;
+        /* width: 10000px; */
         margin: 0;
         display: flex;
         flex-direction: column;
