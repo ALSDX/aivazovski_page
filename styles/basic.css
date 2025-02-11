@@ -11,6 +11,36 @@ body {
         scroll-behavior: smooth;
         overflow-x: hidden;
     }
+    .home_link_svg {
+        text-decoration: none;
+        color: #000000;
+    }
+    .home_link_svg:hover {
+        text-decoration: none;
+        color: gray;
+    }
+    .aside_svg {
+        width:3vw;
+        position: fixed;
+        z-index: 1;
+        top: 15vw;
+        left: 1vw;
+    }
+    .aside_home {
+        margin: 0;
+    }
+    .aside_about {
+        margin: 4vw 0 0;
+    }
+    .aside_history {
+        margin: 8vw 0 0;
+    }
+    .aside_portfolio {
+        margin: 12vw 0 0;
+    }
+    .aside_contacts {
+        margin: 16vw 0 0;
+    }
     .container {
         display: flex;
         flex-direction: column;
